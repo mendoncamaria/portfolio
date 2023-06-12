@@ -1,4 +1,4 @@
-# &copy;MARIA MENDONCA | PORTFOLIO  
+# MARIA MENDONCA&copy; | PORTFOLIO  
 
 This is a fairly simple portfolio built using reactJS   
 
