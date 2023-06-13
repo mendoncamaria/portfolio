@@ -1,0 +1,7 @@
+.name{
+    display: inline-block;
+    background: linear-gradient(90deg, red, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

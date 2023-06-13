@@ -1,13 +1,12 @@
 import React from 'react';
-
-// pending: styling, moving constants out
+import styles from './header.module.css';
 
 function Header() {
   return (
     <>
       <div>
-        <div>Maria Mendonca</div>
-        <div>Frontend Developer</div>
+        <h1 className={styles.name}>Maria Mendonca</h1>
+        <h2 className={styles.name}>Frontend Developer</h2>
       </div>
       <div>
         <div>
