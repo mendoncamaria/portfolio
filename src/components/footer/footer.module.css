@@ -1,4 +1,12 @@
-.container{
-    background-color: black;
-    color: aliceblue;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+.footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.footerText {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif, Playfair Display;
 }
