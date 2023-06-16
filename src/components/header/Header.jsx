@@ -1,21 +1,23 @@
 import React from 'react';
 import styles from './header.module.css';
+import { FaGithub, FaLinkedin, FaPeriscope } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
 
 function Header() {
   return (
-    <>
-      <div>
+    <div className={styles.container}>
+      <div style={{ display: 'flex', flexDirection: 'column'}}>
         <h1 className={styles.name}>Maria Mendonca</h1>
-        <h2 className={styles.name}>Frontend Developer</h2>
+        <h2 className={styles.title}>Frontend Developer</h2>
       </div>
-      <div>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <div>
           <a
             href="https://www.linkedin.com/in/mariamendonca/"
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            <FaLinkedin size={30} />
           </a>
         </div>
         <div>
@@ -24,12 +26,12 @@ function Header() {
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <FaGithub size={30} />
           </a>
         </div>
         <div>
           <a href="mailto:freelancermariamendonca@gmail.com?subject=Me&body=Hello!">
-            email
+            <AiOutlineMail size={30} />
           </a>
         </div>
         <div>
@@ -38,11 +40,13 @@ function Header() {
             target="_blank"
             rel="noreferrer"
           >
+            {' '}
+            <FaPeriscope />
             Udupi, Karnataka
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
