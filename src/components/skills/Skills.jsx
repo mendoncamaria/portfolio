@@ -3,7 +3,7 @@ import cssIcon from '../../assets/css3.png';
 import htmlIcon from '../../assets/html5.png';
 import javascriptIcon from '../../assets/javascript.png';
 import reactNativeIcon from '../../assets/react.png';
-// import reactIcon from '../../assets/reactJS.png';
+import reactIcon from '../../assets/reactJS.png';
 import reduxIcon from '../../assets/redux.png';
 import githubicon from '../../assets/github.png';
 import mongoDBIcon from '../../assets/mongoDB.png';
@@ -35,14 +35,12 @@ function Skills() {
         <div className="frontend">
           <h1>Frontend</h1>
           <p>
-            {/* <img alt="skill" src={reactIcon} height="150px" width="150px" /> */}
+            <img alt="skill" src={reactIcon} height="150px" width="150px" />
           </p>
           <p>
             <img alt="skill" src={reduxIcon} height="150px" width="150px" />
           </p>
           <p><img alt="skill" src={reactNativeIcon} height="150px" width="150px" /></p>
-          <p>Flutter</p>
-          <p>Flutterflow</p>
           <p>
             <img alt="skill" src={htmlIcon} height="150px" width="150px" />
           </p>
@@ -56,7 +54,6 @@ function Skills() {
 
         <div className="backend">
           <h1>Backend</h1>
-          <p>ExpressJS</p>
           <p>Node.js</p>
         </div>
 
