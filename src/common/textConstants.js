@@ -1,0 +1,3 @@
+export const TEXT_CONSTANTS = {
+// TODO: MOVE CONSTANTS HERE
+}
