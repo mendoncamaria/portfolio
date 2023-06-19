@@ -34,14 +34,14 @@ export const GeneralPurposeLanguageList = [
   {
     src: PythonIcon,
     alt: 'Python',
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '66px',
   },
   {
     alt: 'JavaScript',
     src: JavascriptIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -49,38 +49,38 @@ export const FrontendSkillList = [
   {
     alt: 'React',
     src: ReactIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Redux',
     src: ReduxIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'react-native',
     src: ReactNativeIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'HTML',
     src: HtmlIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'CSS',
     src: CssIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'SASS',
     src: SassIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -88,8 +88,8 @@ export const BackendSkillList = [
   {
     alt: 'NodeJS',
     src: NodeJSIcon,
-    height: '150px',
-    width: '250px',
+    height: '61x',
+    width: '120px',
   },
 ];
 
@@ -97,14 +97,14 @@ export const DatabaseList = [
   {
     alt: 'MongoDB',
     src: MongoDBIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'MySQL',
     src: MySQLIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -112,14 +112,14 @@ export const VersionControlSystemsList = [
   {
     alt: 'Github',
     src: GithubIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Gitlab',
     src: GitlabIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -127,14 +127,14 @@ export const ProjectManagementToolsList = [
   {
     alt: 'Redmine',
     src: RedmineIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Agile',
     src: AgileIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -142,20 +142,20 @@ export const CodeEditorsList = [
   {
     alt: 'VS-Code',
     src: VSCodeIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Visual-Studio-Code',
     src: VisualStudioIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Notepad-Plus-Plus',
     src: NotepadPlusPlus,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -163,14 +163,14 @@ export const OperatingSystemsList = [
   {
     alt: 'Windows',
     src: WindowsIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'Ubuntu',
     src: UbuntuIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 
@@ -178,20 +178,20 @@ export const CloudServicesList = [
   {
     alt: 'Firebase',
     src: FirebaseIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'AWS',
     src: AwsIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
   {
     alt: 'GCP',
     src: GcpIcon,
-    height: '150px',
-    width: '150px',
+    height: '64px',
+    width: '64px',
   },
 ];
 

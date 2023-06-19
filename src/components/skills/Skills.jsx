@@ -9,7 +9,7 @@ function Skills() {
       <div>
         {skillCategories.map((category) => (
           <div key={category.title} className={category.className}>
-            <h1>{category.title}</h1>
+            <h2>{category.title}</h2>
             {category.skills.map((item) => (
               <Image key={item.alt} item={item} />
             ))}
