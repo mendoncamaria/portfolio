@@ -194,3 +194,35 @@ export const CloudServicesList = [
     width: '150px',
   },
 ];
+
+export const skillCategories = [
+  {
+    title: 'Programming Language',
+    className: 'gpLang',
+    skills: GeneralPurposeLanguageList,
+  },
+  { title: 'Frontend', className: 'frontend', skills: FrontendSkillList },
+  { title: 'Backend', className: 'backend', skills: BackendSkillList },
+  { title: 'Database', className: 'db', skills: DatabaseList },
+  {
+    title: 'Version Control Systems',
+    className: 'versionControl',
+    skills: VersionControlSystemsList,
+  },
+  {
+    title: 'Project Management Tools',
+    className: 'projMgmtTools',
+    skills: ProjectManagementToolsList,
+  },
+  {
+    title: 'Integrated Development Environments (IDEs) and Text Editors',
+    className: 'codeEditors',
+    skills: CodeEditorsList,
+  },
+  { title: 'Operating Systems', className: 'os', skills: OperatingSystemsList },
+  {
+    title: 'Cloud Services',
+    className: 'cloudServices',
+    skills: CloudServicesList,
+  },
+];
