@@ -1,0 +1,20 @@
+.inputStyles {
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  width: 300px;
+  background-color: var(--input-background-color);
+  border-bottom: 2px solid #ccc;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputStyles:focus {
+  outline: none;
+  border-color: #00ade6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.left {
+  width: 50%;
+}
