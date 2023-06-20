@@ -1,5 +1,9 @@
+:root {
+  --input-background-color: linear-gradient(90deg, #cfd9df, #949ca1);
+}
+
 .container {
-  background: linear-gradient(90deg, #cfd9df, #949ca1);
+  background: var(--input-background-color);
   height: 100%;
   box-sizing: border-box;
 }
