@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from './education.module.css'
 
 function Education() {
   return (
-    <div>Education</div>
+    <div>
+      <p className={styles.container}>Education</p>
+    </div>
   )
 }
 
