@@ -1,11 +1,14 @@
 import React from 'react';
 import { skillCategories } from './SkillList';
 import Image from '../../common/Image';
+import styles from './skills.module.css';
 
 function Skills() {
   return (
     <>
-      <div className="heading">SKILLS</div>
+      <div className="heading">
+        <p className={styles.heading}>Skills</p>
+      </div>
       <div>
         {skillCategories.map((category) => (
           <div key={category.title} className={category.className}>
