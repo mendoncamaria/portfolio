@@ -4,7 +4,7 @@ import styles from './contact.module.css';
 function Contact() {
   return (
     <div>
-      <h1 className="container">Contact Me</h1>
+      <p className={styles.heading}>Contact Me</p>
       <div
         style={{
           display: 'flex',
@@ -12,29 +12,39 @@ function Contact() {
         }}
       >
         <div className={styles.left}></div>
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            width: '500px',
-          }}
-        >
+        <div className={styles.right}>
           <input
             type="text"
             className={styles.inputStyles}
-            placeholder="Enter text"
+            placeholder="EMAIL: "
           />
           <input
             type="text"
             className={styles.inputStyles}
-            placeholder="Enter text"
+            placeholder="NAME: "
           />
           <textarea
             type="text"
             className={styles.inputStyles}
-            placeholder="Enter text"
+            placeholder="write message...."
           />
-          <button>submit</button>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <button
+              style={{
+                width: '40%',
+                padding: '0.3rem',
+                alignItems: 'center',
+              }}
+            >
+              Send Message
+            </button>
+          </div>
         </div>
       </div>
     </div>
