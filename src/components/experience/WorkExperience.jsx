@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from './experience.module.css';
 
 function WorkExperience() {
   return (
     <>
-      <div className="heading">WORK EXPERIENCE</div>
+      <div className="heading">
+        <p className={styles.heading}>
+          Work Experience
+        </p>
+      </div>
       <div>
         <div>
           <div>
