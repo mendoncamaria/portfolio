@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
+import './card.css';
 
-function Card({ projectName, language }) {
+const Card = ({ language, projectName, githubLink, websiteLink }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div>
-      <div style={{ backgroundColor: 'blue', width: '230px', height: '230px', padding: '1rem' }}>
-        <p style={{ color: 'white' }}>{language} </p>
-        <h1 style={{ fontSize: '3em' }}>{projectName}</h1>
-        <div style={{ display: 'flex', gap: '20px', justifyContent: 'space-evenly' }}>
+    <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
+      <div className="card-front">
+        <p className="card-language">{language}</p>
+        <h1 className="card-title">{projectName}</h1>
+        <div className="card-links">
           <p>
             <FaGithub />
             Github
@@ -18,8 +25,11 @@ function Card({ projectName, language }) {
           </p>
         </div>
       </div>
+      <div className="card-back">
+        {/* Add content for the back of the card here */}
+      </div>
     </div>
   );
-}
+};
 
 export default Card;
