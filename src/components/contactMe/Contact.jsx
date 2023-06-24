@@ -1,16 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './contact.module.css';
 
 function Contact() {
-  // const [focus, setFocus] = useState(false);
-
-  // const handleFocus = () => {
-  //   setFocus(true);
-  // };
-
-  // const handleBlur = () => {
-  //   setFocus(false);
-  // };
   return (
     <div>
       <p className={styles.heading}>Contact Me</p>
