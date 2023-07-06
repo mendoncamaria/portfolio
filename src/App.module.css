@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 :root {
-  --input-background-color: linear-gradient(90deg, #cfd9df, #949ca1);
+  --input-background-color: #eee;
   --heading-text-align: center;
   --heading-font-family: 'Josefin Sans', sans-serif;
   --heading-font-size: 3em;
@@ -10,5 +10,6 @@
 .container {
   background: var(--input-background-color);
   height: 100%;
+  width: auto;
   box-sizing: border-box;
 }
