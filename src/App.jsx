@@ -12,11 +12,11 @@ function App() {
   return (
     <div className={styles.container}>
       <Header />
-      <AboutMe />
       <WorkExperience />
+      <PersonalProject />
       <Skills />
       <Education />
-      <PersonalProject />
+      <AboutMe />
       <Contact />
       <Footer />
     </div>
