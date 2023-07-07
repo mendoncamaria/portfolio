@@ -18,7 +18,7 @@ function WorkExperience() {
             <h1 className="companyName">{WORK_EXPERIENCE1.NAME}</h1>
             <p className="jobTitle">{WORK_EXPERIENCE1.TITLE}</p>
             <p className="dates">{WORK_EXPERIENCE1.DATE}</p>
-            <p className="contentData">{WORK_EXPERIENCE1.POINT1}</p>
+            <p className="contentData" style={{textAlign: 'justify'}}>{WORK_EXPERIENCE1.POINT1}</p>
           </div>
         </div>
       </div>

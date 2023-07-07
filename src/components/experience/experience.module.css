@@ -3,9 +3,6 @@
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size);
 }
-.main {
-  padding: 0 10%;
-}
 .sub_container {
   display: flex;
   gap: 3rem;
