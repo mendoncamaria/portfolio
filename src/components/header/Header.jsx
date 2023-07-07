@@ -10,7 +10,7 @@ function Header() {
       <div>
         <div>
           <h1 className={styles.name}>Maria Mendonca</h1>
-          <h2 className={styles.title}>Frontend Developer</h2>
+          <h2 className={styles.title}>Frontend Developer/Engineer</h2>
         </div>
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <div>
