@@ -1,18 +1,13 @@
 import React from 'react';
-import maria from '../../assets/maria.jpg';
+import styles from './aboutme.module.css';
 
 function AboutMe() {
   return (
-    <div
-      style={{
-        display: 'flex',
-      }}
-    >
-      <div
-        style={{
-          width: '70%',
-        }}
-      >
+    <>
+      <div className="heading">
+        <p className={styles.heading}>About Me</p>
+      </div>
+      <div>
         <p>
           Welcome to my portfolio! I am an aspiring web developer with 1 year of
           experience in building web applications. During my journey, I had the
@@ -34,17 +29,7 @@ function AboutMe() {
           <br />
         </p>
       </div>
-      <div>
-        <img
-          src={maria}
-          alt="Maria"
-          style={{
-            width: '200px',
-            height: 'auto',
-          }}
-        />
-      </div>
-    </div>
+    </>
   );
 }
 
