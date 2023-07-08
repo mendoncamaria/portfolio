@@ -3,3 +3,18 @@
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3em;
 }
+.sub_container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .sub_container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main {
+    padding: 0 5%;
+  }
+}
