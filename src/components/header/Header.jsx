@@ -6,13 +6,13 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 function Header() {
   return (
-    <div style={{ display: 'flex', alignItems: 'center'}}>
+    <div className={styles.container}>
       <div>
-        <div>
+        <div className={styles.heading_text_container}>
           <h1 className={styles.name}>Maria Mendonca</h1>
           <h2 className={styles.title}>Frontend Developer/Engineer</h2>
         </div>
-        <div style={{display: 'flex', justifyContent: 'space-between'}}>
+        <div className={styles.heading_icon_container}>
           <div>
             <a
               href="https://www.linkedin.com/in/mariamendonca/"
@@ -50,14 +50,13 @@ function Header() {
         </div>
       </div>
       <div>
-        <img
-          src={maria}
-          alt="Maria"
-          style={{
-            width: '200px',
-            height: 'auto',
-          }}
-        />
+        <div className={styles.image_outer_block}>
+          <div className={styles.image_mid_block}>
+            <div className={styles.image_inner_block}>
+              <img src={maria} alt="myphoto" className={styles.image_styles} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
