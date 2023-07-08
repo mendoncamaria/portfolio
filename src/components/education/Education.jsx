@@ -34,7 +34,7 @@ function Education() {
         </div>
         <div
           className={styles.sub_container}
-          style={{ flexDirection: 'row-reverse' }}
+          // style={{ flexDirection: 'row-reverse' }}
         >
           <div className="image">
             <img
