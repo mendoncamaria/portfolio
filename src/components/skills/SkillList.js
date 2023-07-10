@@ -30,6 +30,32 @@ import FirebaseIcon from '../../assets/firebase.png';
 import AwsIcon from '../../assets/aws.png';
 import GcpIcon from '../../assets/gcp.png';
 
+export const skillsList = [
+  PythonIcon,
+  JavascriptIcon,
+  ReactIcon,
+  ReduxIcon,
+  ReactNativeIcon,
+  HtmlIcon,
+  CssIcon,
+  SassIcon,
+  NodeJSIcon,
+  MongoDBIcon,
+  MySQLIcon,
+  GithubIcon,
+  GitlabIcon,
+  RedmineIcon,
+  AgileIcon,
+  VSCodeIcon,
+  VisualStudioIcon,
+  NotepadPlusPlus,
+  WindowsIcon,
+  UbuntuIcon,
+  FirebaseIcon,
+  AwsIcon,
+  GcpIcon,
+];
+
 export const GeneralPurposeLanguageList = [
   {
     src: PythonIcon,
