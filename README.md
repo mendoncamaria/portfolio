@@ -7,4 +7,4 @@ This is a fairly simple portfolio built using reactJS
 2. run `npm install` to install all necessary packages
 3. then run the repo using `npm start`
 
-## NOTE: IF YOU PLAN TO USE THE PORTFOLIO, DO CREDIT ME 
+## NOTE: IF YOU PLAN TO USE THE PORTFOLIO, DO CREDIT ME!
